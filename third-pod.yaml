@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: third-pod
+spec:
+  containers:
+  - name: third-container
+    image: java:latest
+    command: 
+    - tail
+    - "-f"
+    - /dev/null

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: fourth-pod
+spec:
+  containers:
+  - name: fourth-container
+    image: python:latest
+    command: 
+    - tail
+    - "-f"
+    - /dev/null
