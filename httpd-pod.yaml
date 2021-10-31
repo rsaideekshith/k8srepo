@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: httpd-container
-    image: httpd
+    image: rsaideekshith123/httpd:3.0
